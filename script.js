@@ -4,7 +4,7 @@ var a = 10;
 
 document.write("Result:<br/>The value of a is: " + a);
 
-document.write("------------------------------<br/>");
+document.write("<br/>------------------------------");
 
 document.write("<br/>The value of ++a is: " + ++a);
 document.write("<br/>Now the value of a: " + a);
@@ -25,8 +25,8 @@ var a = 2, b = 1;
 var result = --a - --b + ++b + b--;
 
 document.write("value of a is: " + a);
-document.write("value of b is: " + b);
-document.write("Result is: " + result);
+document.write("<br/>value of b is: " + b);
+document.write("<br/>Result is: " + result);
 
 
 
@@ -36,7 +36,7 @@ document.write("hello, " + userName);
 
 
 document.write("<h2>Task 4 & 5</h2>");
-var numb = +prompt("Enter a Number: ");
+var numb = +prompt("Enter a Number to print a table: ");
 
 if (numb !== 5) {
     for (let i = 1; i <= 10; i++) {
@@ -44,7 +44,7 @@ if (numb !== 5) {
     }
 }
 else {
-    document.write("Number is not eligible");
+    document.write("Number is not eligible to print a table");
 }
 
 
